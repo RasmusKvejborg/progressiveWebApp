@@ -1,7 +1,7 @@
 // importScripts('https://storage.googleapis.com/workbox-cdn/releases/6.3.0/workbox-sw.js');
 
 const cacheName = "cache-v2" // tilføj v++ hver gang man ændrer noget
-const assets = ['/', '/index.html', './manifest.json', './icons/manifest-icon-192.maskable.png'] // cache alle js og css
+const assets = ['/', '/index.html', './manifest.json', './icons/manifest-icon-192.maskable.png', 'logo.png'] // cache alle js og css
 
 // workbox.routing.registerRoute(
 //     ({request}) => request.destination === 'image',
